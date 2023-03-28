@@ -1,0 +1,35 @@
+:root {
+    --dark: #0C0C0C;
+    --primary: #CCCCCC;
+    --selection: #858585;
+}
+
+::selection {
+    background-color: var(--selection);
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cascadia Code', sans-serif;
+    background-color: var(--dark);
+    color: var(--primary);
+}
+
+.container {
+    width: max-content;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+span {
+    white-space: pre;
+}
+
+/* white-space: pre; */
